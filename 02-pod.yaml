@@ -4,7 +4,7 @@ metadata:
   name: nginx
   labels:
     purpose: demo
-  Spec:
+  spec:
     containers:
     - name: nginx
       image: nginx
