@@ -10,9 +10,9 @@ spec:
     project: roboshop
     environment: dev
   ports:
-  - protocol: TCP
-    port: 80
-    targetport: 80
+    - protocol: TCP
+      port: 80
+      targetport: 80
 
 ---
 apiVersion: v1
